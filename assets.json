@@ -1,17 +1,36 @@
 {
-  "covers": {
-    "dusk-residence": { "file": "covers/dusk-residence.jpg", "orient": "landscape" }
-  },
-  "objects": {
-    "res_msk_1200": {
-      "track": "private",
-      "type": "residence",
-      "public": "anon",
-      "assets": {
-        "case-main": { "file": "objects/res_msk_1200/case-main.jpg", "orient": "portrait" },
-        "case-1":    { "file": "objects/res_msk_1200/case-1.jpg",    "orient": "landscape" },
-        "case-2":    { "file": "objects/res_msk_1200/case-2.jpg",    "orient": "landscape" }
+  "schema": "butler-deck-assets/v1",
+  "tracks": {
+    "private": {
+      "cover_slot": "cover-private",
+      "covers": {
+        "dusk-residence": { "file": "covers/private/dusk-residence.jpg", "orient": "landscape" }
+      },
+      "active_cover": "dusk-residence",
+      "objects": {
+        "res_msk_1200": {
+          "type": "residence",
+          "public": "anon",
+          "title": "Резиденция · Москва · 1 200 м²",
+          "assets": {
+            "case-main": { "file": "objects/private/res_msk_1200/case-main.jpg", "orient": "portrait" },
+            "case-1":    { "file": "objects/private/res_msk_1200/case-1.jpg",    "orient": "landscape" },
+            "case-2":    { "file": "objects/private/res_msk_1200/case-2.jpg",    "orient": "landscape" }
+          }
+        }
       }
+    },
+    "commercial": {
+      "cover_slot": "cover-commercial",
+      "covers": {},
+      "active_cover": null,
+      "objects": {}
+    },
+    "hotel": {
+      "cover_slot": "cover-hotel",
+      "covers": {},
+      "active_cover": null,
+      "objects": {}
     }
   }
 }
