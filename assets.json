@@ -1,0 +1,17 @@
+{
+  "covers": {
+    "dusk-residence": { "file": "covers/dusk-residence.jpg", "orient": "landscape" }
+  },
+  "objects": {
+    "res_msk_1200": {
+      "track": "private",
+      "type": "residence",
+      "public": "anon",
+      "assets": {
+        "case-main": { "file": "objects/res_msk_1200/case-main.jpg", "orient": "portrait" },
+        "case-1":    { "file": "objects/res_msk_1200/case-1.jpg",    "orient": "landscape" },
+        "case-2":    { "file": "objects/res_msk_1200/case-2.jpg",    "orient": "landscape" }
+      }
+    }
+  }
+}
