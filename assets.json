@@ -4,7 +4,10 @@
     "private": {
       "cover_slot": "cover-private",
       "covers": {
-        "dusk-residence": { "file": "covers/private/dusk-residence.jpg", "orient": "landscape" }
+        "dusk-residence": {
+          "file": "covers/private/dusk-residence.jpg",
+          "orient": "landscape"
+        }
       },
       "active_cover": "dusk-residence",
       "objects": {
@@ -13,9 +16,33 @@
           "public": "anon",
           "title": "Резиденция · Москва · 1 200 м²",
           "assets": {
-            "case-main": { "file": "objects/private/res_msk_1200/case-main.jpg", "orient": "portrait" },
-            "case-1":    { "file": "objects/private/res_msk_1200/case-1.jpg",    "orient": "landscape" },
-            "case-2":    { "file": "objects/private/res_msk_1200/case-2.jpg",    "orient": "landscape" }
+            "case-main": {
+              "file": "objects/private/res_msk_1200/case-main.jpg",
+              "orient": "portrait"
+            },
+            "case-1": {
+              "file": "objects/private/res_msk_1200/case-1.jpg",
+              "orient": "landscape"
+            },
+            "case-2": {
+              "file": "objects/private/res_msk_1200/case-2.jpg",
+              "orient": "landscape"
+            }
+          }
+        },
+        "_concept": {
+          "type": "concept",
+          "public": "public",
+          "title": "Концептуальные кадры (частный трек)",
+          "assets": {
+            "shift-engineering": {
+              "file": "objects/private/_concept/shift-engineering.jpg",
+              "orient": "portrait"
+            },
+            "future-warmth": {
+              "file": "objects/private/_concept/future-warmth.jpg",
+              "orient": "landscape"
+            }
           }
         }
       }
@@ -26,13 +53,6 @@
       "active_cover": null,
       "objects": {}
     },
-    "_concept": {
-  "type": "concept", "public": "public", "title": "Концептуальные кадры (частный трек)",
-  "assets": {
-    "shift-engineering": { "file": "objects/private/_concept/shift-engineering.jpg", "orient": "portrait" },
-    "future-warmth":     { "file": "objects/private/_concept/future-warmth.jpg",     "orient": "landscape" }
-  }
-}
     "hotel": {
       "cover_slot": "cover-hotel",
       "covers": {},
