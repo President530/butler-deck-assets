@@ -29,6 +29,16 @@
               "orient": "landscape"
             }
           }
+          "res_msk_millennium": {
+  "type": "residence",
+  "public": "anon",
+  "title": "Резиденция · Millennium Park, Москва",
+  "assets": {
+    "case-main": { "file": "objects/private/res_msk_millennium/case-main.jpg", "orient": "landscape" },
+    "case-1":    { "file": "objects/private/res_msk_millennium/case-1.jpg",    "orient": "landscape" },
+    "case-2":    { "file": "objects/private/res_msk_millennium/case-2.jpg",    "orient": "portrait" }
+  }
+}
         },
         "_concept": {
           "type": "concept",
