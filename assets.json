@@ -34,6 +34,7 @@
           "title": "Концептуальные кадры (частный трек)",
           "assets": {
             "shift-engineering": { "file": "objects/private/_concept/shift-engineering.jpg", "orient": "portrait" },
+            "philosophy-art": { "file": "objects/private/_concept/philosophy-butler.png", "orient": "portrait" },
             "future-warmth":     { "file": "objects/private/_concept/future-warmth.jpg",     "orient": "landscape" }
           }
         }
